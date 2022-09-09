@@ -21,7 +21,7 @@ console.log(
   "font-size: 20px; background: blue; text-shadow: 2px 2px 0 gray"
 );
 
-// warning!
+// Warning!
 console.warn("Rut-ro");
 
 // Error :|
@@ -36,7 +36,7 @@ const p = document.querySelector("p");
 
 console.assert(p.classList.contains("foo"), "That is is incorrect");
 
-// clearing
+// Clearing
 console.clear();
 
 // Viewing DOM Elements
@@ -53,7 +53,7 @@ dogs.forEach((dog) => {
   console.groupEnd(`${dog.name}`);
 });
 
-// counting
+// Counting
 console.count("Ted");
 console.count("Ted");
 console.count("Ted");
